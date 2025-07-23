@@ -8,6 +8,6 @@ services:
     image: mongo:latest
 
   pg:
-    container_name: "newpg!!"
+    container_name: "newpg"
     image: postgres:15
   
