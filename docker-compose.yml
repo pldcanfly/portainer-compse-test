@@ -6,4 +6,8 @@ services:
   mongo:
     container_name: "mongo-testface"
     image: mongo:latest
+
+  pg:
+    container_name: "newpg!!"
+    image: postgres:15
   
