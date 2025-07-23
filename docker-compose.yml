@@ -1,9 +1,9 @@
 services:
   nginx:
-    name: "nginx"
+    container_name: "nginx"
     image: nginx:latest
 
   mongo:
-    name: "mongo"
+    container_name: "mongo"
     image: mongo:latest
   
