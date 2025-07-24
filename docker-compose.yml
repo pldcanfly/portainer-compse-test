@@ -9,5 +9,7 @@ services:
 
   pg:
     container_name: "newpg"
-    image: postgres:15
+    image: postgres:${PG_VERSION:-stable}
+
+
   
