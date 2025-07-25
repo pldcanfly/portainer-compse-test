@@ -11,7 +11,7 @@ services:
 
   pg:
     container_name: "newpg"
-    image: postgres:latest
+    image: postgres:${PG_VERSION:-latest}
 
 
   
